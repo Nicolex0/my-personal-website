@@ -40,4 +40,5 @@ body, html {
 .content h2 {
     font-size: 1.5em;
     color: #333;
+    margin-top: 20px; /* Add margin to separate from h1 */
 }
