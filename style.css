@@ -16,11 +16,11 @@ body, html {
 }
 
 .container {
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Arrange children vertically */
-    justify-content: center; /* Center children vertically */
-    align-items: center; /* Center children horizontally */
-    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     z-index: 1; /* Ensure content is above the background image */
     color: white; /* Set text color to white */
 }
@@ -35,10 +35,11 @@ body, html {
     background: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border-radius: 10px;
+    position: relative;
+    top: 50px; /* Adjust this value to position the content vertically */
 }
 
 .content h2 {
     font-size: 1.5em;
     color: #333;
-    margin-top: 20px; /* Add margin to separate from h1 */
 }
