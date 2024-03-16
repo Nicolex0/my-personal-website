@@ -32,7 +32,6 @@ body, html {
 
 .content {
     position: relative; /* Position relative for absolute positioning of h2 */
-    display: none; /* Hide content by default */
     background: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border-radius: 10px;
@@ -41,9 +40,8 @@ body, html {
 .content h2 {
     font-size: 1.5em;
     color: #333;
-    display: none; /* Hide content by default */
     position: absolute; /* Position the h2 element */
-    top: 90%; /* Place h2 element below .content */
+    top: 100%; /* Place h2 element below .content */
     left: 50%;
     transform: translateX(-50%); /* Center horizontally */
 }
