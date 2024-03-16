@@ -22,7 +22,6 @@ body, html {
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1; /* Ensure content is above the background image */
-    color: white; /* Set text color to white */
 }
 
 .container h1 {
@@ -32,17 +31,19 @@ body, html {
 }
 
 .content {
+    position: relative; /* Position relative for absolute positioning of h2 */
     display: none; /* Hide content by default */
     background: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border-radius: 10px;
-    position: relative;
-    top: 50px; /* Adjust this value to position the content vertically */
 }
 
 .content h2 {
     font-size: 1.5em;
     color: #333;
-    display: none;
+    display: none; /* Hide content by default */
+    position: absolute; /* Position the h2 element */
+    top: 100%; /* Place h2 element below .content */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
 }
-
