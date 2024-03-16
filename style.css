@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow: hidden; /* Disable scrolling */
 }
 
 .bg-image {
@@ -21,11 +22,11 @@ body, html {
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1; /* Ensure content is above the background image */
+    color: white; /* Set text color to white */
 }
 
 .container h1 {
     font-size: 3em;
-    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
