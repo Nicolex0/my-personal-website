@@ -35,7 +35,7 @@ body, html {
     font-size: 1.5em;
     color: #333;
     position: absolute; /* Position the h2 element */
-    top: calc(100% + 50px); /* Place h2 element below h1 element */
+    top: calc(10% + 50px); /* Place h2 element below h1 element */
     left: 50%; /* Place h2 element horizontally centered */
     transform: translateX(-50%); /* Center the h2 element horizontally */
     display: none; /* Hide content by default */
