@@ -2,7 +2,7 @@
 function toggleContent() {
     const h2 = document.querySelector(".content h2");
     if (h2.style.display === "none" || h2.style.display === "") {
-        h2.style.display = "block";
+        h2.style.display = "flex";
     } else {
         h2.style.display = "none";
     }
