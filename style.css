@@ -44,4 +44,5 @@ body, html {
     top: 50%; /* Place h2 element vertically centered */
     left: 50%; /* Place h2 element horizontally centered */
     transform: translate(-50%, -50%); /* Center the h2 element */
+    display: none; /* Hide content by default */
 }
