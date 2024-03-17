@@ -20,9 +20,9 @@ body, html {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer; /* Add cursor pointer for better usability */
     position: absolute; /* Position the h1 element */
-    top: 50%; /* Place h1 element vertically centered */
-    left: 50%; /* Place h1 element horizontally centered */
-    transform: translate(-50%, -50%); /* Center the h1 element */
+    top: 20px; /* Place h1 element 20px from the top */
+    left: 20px; /* Place h1 element 20px from the left */
+    z-index: 1; /* Ensure h1 is above the background image */
 }
 
 .content {
@@ -43,12 +43,13 @@ body, html {
 
 .contact-container {
     position: fixed;
-    bottom: 20px;
+    bottom: 50px; /* Adjust distance from the bottom */
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    padding: 20px; /* Adjust padding */
     border-radius: 10px;
+    text-align: center; /* Center the contact info */
 }
 
 .contact-info h3 {
@@ -56,5 +57,5 @@ body, html {
 }
 
 .contact-info p {
-    margin: 50px 0;
+    margin: 10px 0; /* Adjust margin for contact info */
 }
