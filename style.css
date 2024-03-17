@@ -33,7 +33,7 @@ body, html {
 .content {
     position: relative; /* Position relative for absolute positioning of h2 */
     background: rgba(255, 255, 255, 0.7);
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
 }
 
